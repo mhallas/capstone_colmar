@@ -1,0 +1,31 @@
+html {
+  font-size: 16px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  height: 4rem;
+  z-index: 5;
+  margin: 0 1.5rem;
+  align-items: center;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+nav .logo span:last-child {
+  color: grey;
+  font-weight: 400;
+}
+
+nav ul {
+  display: flex;
+}
+
+.banner {
+  margin-top: 4rem;
+}
