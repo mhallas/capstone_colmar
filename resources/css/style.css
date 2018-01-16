@@ -2,19 +2,22 @@ html {
   font-size: 16px;
 }
 
-/* Navigation */
+/* Navigation section */
 nav {
   display: flex;
   height: 4rem;
   z-index: 5;
   margin: 0 1.5rem;
   align-items: center;
+  font-family: Helvetica;
 }
 
 nav .logo {
   display: flex;
   align-items: center;
   font-weight: bold;
+  flex: 1;
+  max-height: 2rem;
 }
 
 nav .logo span:last-child {
@@ -25,6 +28,20 @@ nav .logo span:last-child {
 nav ul {
   display: flex;
 }
+
+nav li {
+  margin: 0 0.5rem;
+}
+
+nav li:hover{
+  text-decoration: underline;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+/* Banner section */
 
 .banner {
   margin-top: 4rem;
