@@ -9,9 +9,15 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
   font-weight: bold;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  letter-spacing: .05rem;
+  font-size: 1.5rem;
+}
+
+p {
+  color: grey;
+  letter-spacing: .02rem;
+  font-size: .9rem;
 }
 
 /* Navigation section */
@@ -187,11 +193,6 @@ nav a {
   line-height: 1.5rem;;
 }
 
-.right-content h3 {
-  letter-spacing: .05rem;
-  font-size: 1.5rem;
-}
-
 .right-content p {
   margin-bottom: 1rem;
 }
@@ -242,12 +243,6 @@ nav a {
   height: auto;
 }
 
-.subject h3 {
-  font-size: 1.5rem;
-  weight: bold;
-  letter-spacing: .01rem;
-}
-
 .subject h5 {
   margin-bottom: .5rem;
   font-size: .9rem;
@@ -257,19 +252,20 @@ nav a {
 
 .subject p {
   margin-bottom: 1rem;
-  color: grey;
+  color: #6d6d6d;
   letter-spacing: .02rem;
   font-size: .9rem;
 }
 .subject-text {
   padding: 1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 /* Thesis Section */
 
 .exhibit-container {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .exhibit h2 {
@@ -286,6 +282,12 @@ nav a {
 
 .exhibit video {
   max-width: 100%;
+  border: solid 1px black;
+}
+
+.exhibit p {
+  color: #808080;
+  line-height: 1.35rem;
 }
 
 /* Right Column */
@@ -315,6 +317,10 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.exhibit p {
+
 }
 
 /* Footer Section */
