@@ -1,18 +1,21 @@
 html {
   font-size: 16px;
+  font-family: Helvetica
 }
 
+
 h2 {
-  font-family: Helvetica;
   font-size: 2rem;
   font-weight: 700;
 }
-}
+
 h3 {
-  font-size: 1.5rem;
-  font-family: Helvetica;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
+
+
+
 /* Navigation section */
 
 nav {
@@ -21,7 +24,6 @@ nav {
   z-index: 5;
   margin: 0 1.5rem;
   align-items: center;
-  font-family: Helvetica;
 }
 
 nav .logo {
@@ -79,7 +81,6 @@ nav a {
 
 .banner h1, h3, h4 {
   padding: .75rem 0;
-  font-family: helvetica;
 }
 
 .banner h1 {
@@ -114,7 +115,7 @@ nav a {
 
 .articles {
   display: flex;
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Left Column */
@@ -169,4 +170,66 @@ nav a {
 }
 
 .right-content .article-text {
+}
+
+/* Learning Section */
+
+.learning-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 2rem 4.5rem;
+  flex-wrap: wrap;
+}
+
+.learn {
+  background-color: lightgrey;
+  padding-bottom: 2rem;
+}
+
+.learn h2 {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.subject {
+  margin: .75rem;
+  max-width: 31%;
+  background-color: white;
+  border-radius: 0.1rem;
+}
+
+.subject:hover {
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+.subject-image {
+  height: auto;
+}
+
+.subject img {
+  max-width: 100%;
+  height: auto;
+}
+
+.subject h3 {
+  margin-bottom: .75rem;
+  font-size: 1.5rem;
+  weight: bold;
+}
+
+.subject h5 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: grey;
+}
+
+.subject p {
+  margin-bottom: .5rem;
+  color: grey;
+}
+.subject-text {
+  padding: 1rem;
+  line-height: 2rem;
 }
