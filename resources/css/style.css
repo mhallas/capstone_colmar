@@ -60,6 +60,25 @@ nav a {
   text-decoration: none;
 }
 
+.mobile {
+  display: none;
+}
+
+/* Responsive nav */
+
+@media only screen and (max-width: 480px) {
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 0 2rem;
+  }
+
+  nav {
+    display: none;
+  }
+}
 /* Banner section */
 
 .banner {
@@ -116,6 +135,8 @@ nav a {
   color: black;
   cursor: pointer;
 }
+
+/* Responsive Banner */
 
 /* Article Section */
 
