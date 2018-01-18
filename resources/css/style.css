@@ -3,7 +3,6 @@ html {
   font-family: Helvetica
 }
 
-
 h2 {
   font-size: 2rem;
   font-weight: 700;
@@ -13,8 +12,6 @@ h3 {
   font-size: 1.25rem;
   font-weight: bold;
 }
-
-
 
 /* Navigation section */
 
@@ -265,6 +262,10 @@ nav a {
   display: flex;
 }
 
+.exhibit-right {
+  margin: 1rem;
+}
+
 .exhibit-right .feature:hover {
   background-color: lightgrey;
 }
@@ -282,4 +283,21 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  border-top: solid 1px lightgrey;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+  font-size: 0.75rem;
+}
+
+.copyright {
+  flex: 1;
+}
+
+.terms span {
+  padding: 0 .5rem;
 }
