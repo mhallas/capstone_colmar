@@ -157,7 +157,7 @@ nav a {
 }
 
 .articles .article:hover {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 .right-content .article-image {
@@ -170,6 +170,9 @@ nav a {
 }
 
 .right-content .article-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Learning Section */
@@ -232,4 +235,51 @@ nav a {
 .subject-text {
   padding: 1rem;
   line-height: 2rem;
+}
+
+/* Thesis Section */
+
+.exhibit-container {
+  display: flex;
+}
+
+.exhibit h2 {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+/* Left Column */
+
+.exhibit-left {
+  max-width: 60%;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.exhibit video {
+  max-width: 100%;
+}
+
+/* Right Column */
+
+.exhibit .feature {
+  display: flex;
+}
+
+.exhibit-right .feature:hover {
+  background-color: lightgrey;
+}
+
+.feature-image {
+  padding: 1rem;
+  max-width: 35%;
+}
+
+.exhibit-right img {
+  max-width: 100%;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
