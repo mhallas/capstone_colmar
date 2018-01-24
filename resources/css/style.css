@@ -368,6 +368,7 @@ nav a {
 .mobile-learn {
   display: none;
 }
+
 /*Learning Responsive*/
 
 @media only screen and (max-width: 480px) {
@@ -399,6 +400,7 @@ nav a {
     background-color: darkgrey;
     color: white;
   }
+}
 
 /* Thesis Section */
 
@@ -458,8 +460,20 @@ nav a {
   justify-content: center;
 }
 
-.exhibit p {
+.mobile-video {
+  display: none;
+}
 
+/* Thesis Responsive */
+
+@media only screen and (max-width: 480px) {
+  .mobile-video {
+    display: block;
+  }
+
+  .exhibit-container {
+    display: none;
+  }
 }
 
 /* Footer Section */
@@ -470,6 +484,15 @@ footer {
   padding: 1rem 1.5rem 2rem 1.5rem;
   font-size: 0.75rem;
 }
+
+/* Footer Responsive */
+@media only screen and (max-width: 480px) {
+  footer {
+    border-top: solid 0px white;
+    }
+  }
+}
+
 
 .copyright {
   flex: 1;
