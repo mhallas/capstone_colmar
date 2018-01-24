@@ -221,9 +221,9 @@ nav a {
 }
 
 .articles .article {
-    display: flex;
-    border: solid 1px lightgrey;
-    transition: background-color 200ms ease-out;
+  display: flex;
+  border: solid 1px lightgrey;
+  transition: background-color 200ms ease-out;
 }
 
 .articles .article:hover {
@@ -254,6 +254,56 @@ nav a {
 .right-content a{
   color: blue;
   text-decoration: none;
+}
+
+.right-content .mobile-image {
+  display: none;
+}
+
+/* Article Responsive */
+
+@media only screen and (max-width: 480px) {
+  .articles .left-content {
+    display: none;
+  }
+
+  .right-content .article-image {
+    display: none;
+  }
+
+  .right-content .mobile-image {
+    display: flex;
+  }
+
+  .articles {
+    display: block;
+    border-bottom: solid 1px lightgrey;
+  }
+
+  .articles .right-content {
+    display: block;
+    max-width: 100%;
+    padding: 0 0;
+  }
+
+  .right-content .article {
+    display: flex;
+    flex-direction: column;
+    border: solid 0px white;
+    padding: 1rem;
+  }
+
+  .right-content .mobile-image {
+    max-width: 100%;
+  }
+
+  .right-content img {
+    height: 200px;
+  }
+
+  .right-content .article-text {
+    padding: 1rem 1rem 1rem 1rem;
+  }
 }
 
 /* Learning Section */
@@ -314,6 +364,41 @@ nav a {
   padding: 1rem;
   line-height: 1.5rem;
 }
+
+.mobile-learn {
+  display: none;
+}
+/*Learning Responsive*/
+
+@media only screen and (max-width: 480px) {
+  .learning-container {
+    display: none;
+  }
+
+  .learn {
+    background-color: white;
+    border: solid 1px lightgrey;
+  }
+
+  .learn h2 {
+    padding-bottom: 2rem;
+  }
+
+  .mobile-learn {
+    display: block;
+    margin: 1rem;
+  }
+
+  .mobile-learn h3 {
+    background-color: lightgrey;
+    margin-bottom: 0.5rem;
+    padding: 2rem;
+  }
+
+  .mobile-learn h3:hover {
+    background-color: darkgrey;
+    color: white;
+  }
 
 /* Thesis Section */
 
