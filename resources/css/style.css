@@ -138,6 +138,17 @@ nav a {
 
 /* Responsive Banner */
 
+@media only screen and (max-width: 790px) {
+  .banner-image {
+    display: none;
+  }
+
+  .banner-content {
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .banner {
     display: block;
@@ -302,7 +313,7 @@ nav a {
   }
 
   .right-content .article-text {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 0 1rem;
   }
 }
 
@@ -485,19 +496,18 @@ footer {
   font-size: 0.75rem;
 }
 
-/* Footer Responsive */
-@media only screen and (max-width: 480px) {
-  footer {
-    border-top: solid 0px white;
-    }
-  }
-}
-
-
 .copyright {
   flex: 1;
 }
 
 .terms span {
   padding: 0 .5rem;
+}
+
+/* Footer Responsive */
+@media only screen and (max-width: 480px) {
+  footer {
+    border-top: solid 0px white;
+    }
+  }
 }
